@@ -307,9 +307,6 @@
     font-family: lato;
     padding: 70px;
 }
-.for-item h2{
-
-}
 .for-item h2 samp{
     font-size: 24px;
     color: #E55473;
@@ -317,6 +314,7 @@
 .for-item p{
     color: rgba(255, 255, 255, 0.90);
     font-size: 14px;
+    padding: 16px 235px;
 }
 .for-item samp{
     color: rgba(255, 255, 255, 0.40);
