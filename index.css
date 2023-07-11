@@ -271,9 +271,8 @@
 /* sub-box */
 .sub-box{
     text-align: center;
-    padding: 50px 0;
+    padding: 150px 0;
     overflow: hidden;
-    background-color: #E55473;
 }
 .sub-bg{
     height: 300px;
@@ -282,4 +281,15 @@
     background-repeat: no-repeat;
     background-size: cover;
     font-family: lato;
+}
+.sub-bg div{
+    padding: 55px 0 25px
+}
+.sub-bg p{
+    font-size: 14px;
+    color: rgba(39, 39, 39, 0.60);
+}
+.sub-bg h2{
+    font-weight: 800;
+    color: #272727;
 }
