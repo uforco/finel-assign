@@ -202,7 +202,6 @@
     justify-content: center;
 }
 /* hot-deal */
-.hot-deal{}
 .sela-hot{
     margin: 0 10%;
 }
@@ -268,4 +267,19 @@
 .insta-img img{
     width: 200px;
     padding: 10px;
+}
+/* sub-box */
+.sub-box{
+    text-align: center;
+    padding: 50px 0;
+    overflow: hidden;
+    background-color: #E55473;
+}
+.sub-bg{
+    height: 300px;
+    width: 100%;
+    background-image: url(./image/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: lato;
 }
