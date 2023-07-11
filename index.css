@@ -7,6 +7,7 @@
 .aline-content{
     display: flex;
     justify-content: center;
+    
 }
 .center-content{
     width: 80%;
@@ -151,9 +152,8 @@
     line-height: 25px;
     letter-spacing: 1px;
 }
-
+/* support-area */
 .support-ber{
-    background-color: #E55473;
     margin: 100px 0;
 }
 .support-ber div{
@@ -164,9 +164,20 @@
 
 .sub-content{
     display: block !important;
-    height: 150px;
-    background-color: aqua;
-    width: 70%;
-    border-radius: 10px;
-    /* background-color: aqua; */
+    background: rgba(39, 39, 39, 0.05);
+    border-radius: 2px;
+}
+.sub-content div{
+    display: inline-block;
+    padding: 10px 40px;
+    font-family: lato;
+    font-size: 14px;
+}
+.sup-item .item-img{
+    display: flex;
+    justify-content: center;
+}
+.sup-item p{
+    display: flex !important;
+    justify-content: center;
 }
