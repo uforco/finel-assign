@@ -293,3 +293,32 @@
     font-weight: 800;
     color: #272727;
 }
+/* footer */
+.footer-box{
+    overflow: hidden;
+}
+.foor-cont{
+    background: #111010;
+
+}
+.for-item{color: #FFF;
+    color: #FFF;
+    text-align: center;
+    font-family: lato;
+    padding: 70px;
+}
+.for-item h2{
+
+}
+.for-item h2 samp{
+    font-size: 24px;
+    color: #E55473;
+}
+.for-item p{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 14px;
+}
+.for-item samp{
+    color: rgba(255, 255, 255, 0.40);
+    font-weight: 400;
+}
