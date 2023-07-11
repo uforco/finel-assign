@@ -60,7 +60,7 @@
     line-height: 28px;
     padding: 18px 0px;
 }
-.left-content button{
+.btn-my{
     background: #E55473;
     color: #FFF;
     font-size: 14px;
@@ -72,7 +72,25 @@
     border-radius: 5px;
     transition: 0.2s ease-in-out;
 }
-.left-content button:hover{
+.btn-my:hover{
+    background: none;
+    color: #E55473;
+    border: 1px solid #E55473;
+    transition: 0.2s ease-out;
+}
+.left-content .btn-my{
+    background: #E55473;
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.2s ease-in-out;
+}
+.left-content .btn-my:hover{
     background: none;
     color: #E55473;
     border: 1px solid #E55473;
@@ -153,6 +171,9 @@
     letter-spacing: 1px;
 }
 /* support-area */
+.hot-deal-bg{
+    background: rgba(229, 84, 115, 0.05);
+}
 .support-ber{
     margin: 100px 0;
 }
@@ -161,7 +182,6 @@
     justify-content: center;
     overflow: hidden;
 }
-
 .sub-content{
     display: block !important;
     background: rgba(39, 39, 39, 0.05);
@@ -184,10 +204,44 @@
 /* hot-deal */
 .hot-deal{}
 .sela-hot{
-
+    background-color: #9f68f8;
+    margin: 0 10%;
 }
 .sela-hot div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.sela-hot .left-deal{
+    overflow: hidden;
+    display: block;
+    padding: 0px 0 0px 0%;
+    width: 50%;
+}
+.sela-hot .right-deal{
+    overflow: hidden;
+    display: block;
+}
+.left-hot-titel{
+    display: block !important;
+    font-family: lato;
 
 }
-.sela-hot .left-deal{}
-.sela-hot .right-deal{}
+.left-hot-titel h2, p, button{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+.left-hot-titel h2 samp{
+    color: #ff0339;
+}
+.left-hot-titel p{
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+}
+.left-hot-titel button{
+    margin: 0 auto;
+}
