@@ -204,7 +204,6 @@
 /* hot-deal */
 .hot-deal{}
 .sela-hot{
-    background-color: #9f68f8;
     margin: 0 10%;
 }
 .sela-hot div{
@@ -239,9 +238,34 @@
 .left-hot-titel p{
     font-size: 14px;
     line-height: 25px;
+    text-align: center;
     letter-spacing: 1px;
     padding-bottom: 10px;
 }
 .left-hot-titel button{
     margin: 0 auto;
+}
+/* imsta */
+.insta-head{
+    padding: 125px 0px 20px;
+    font-family: lato;
+}
+.insta-head h2{
+    display: flex;
+    justify-content: center;
+}
+.insta-head p{
+    font-size: 14px;
+    padding: 23px 100px;
+    text-align: center;
+    line-height: 25px;
+    font-family: lato;
+}
+.insta-img {
+    text-align: center;
+    overflow: hidden;
+}
+.insta-img img{
+    width: 200px;
+    padding: 10px;
 }
